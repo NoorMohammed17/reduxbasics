@@ -2,7 +2,7 @@ import { Component } from "react";
 import { connect } from "react-redux";
 import classes from "./Counter.module.css";
 
-class Counter extends Component {
+class Counter1 extends Component {
   incrementHandler() {
     this.props.increment();
   }
@@ -40,4 +40,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+export default connect(mapStateToProps, mapDispatchToProps)(Counter1);

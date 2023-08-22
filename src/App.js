@@ -1,12 +1,12 @@
 import React from "react";
 import Counter from "./components/Counter";
-//import CounterUsingClass from "./components/CounterUsingClass";
+// import Counter1 from "./components/CounterUsingClass";
 
 function App() {
   return (
     <React.Fragment>
       <Counter />
-      {/* <CounterUsingClass /> */}
+      {/* <Counter1 /> */}
     </React.Fragment>
   );
 }
